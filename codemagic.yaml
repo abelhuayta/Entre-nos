@@ -8,7 +8,7 @@ workflows:
     scripts:
       - name: Configurar proyecto Flutter iOS
         script: |
-          flutter build ios --release --config-only \
+          flutter build ios --release --config-only --no-codesign \
             --dart-define=SUPABASE_URL=https://ncwrxbtvcvpbzeesdqhx.supabase.co \
             --dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5jd3J4YnR2Y3ZwYnplZXNkcWh4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTU0OTIwODcsImV4cCI6MjExMTA2ODA4N30.9oB0NjyUu-_dTHNzG_5LSVDCwcF2EXkoFP3zTutCsOQ
       - name: Compilar Runner.app sin Development Team
