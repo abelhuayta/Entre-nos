@@ -82,12 +82,12 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
               const SizedBox(height: AppSpacing.lg),
               AppTextField(
                 controller: nameCtrl,
-                label: 'Nombre completo',
+                label: 'Nombre completo', hint: 'Tu nombre',
               ),
               const SizedBox(height: AppSpacing.md),
               AppTextField(
                 controller: nickCtrl,
-                label: 'Apodo (@usuario)',
+                label: 'Apodo (@usuario)', hint: 'Algo corto para que te identifiquen',
               ),
               const SizedBox(height: AppSpacing.md),
               AppTextField(
