@@ -16,7 +16,7 @@ class AppNotificationItem {
     required this.type,
     this.referenceId,
     required this.title,
-    this.body,
+    required this.body,
     required this.isRead,
     required this.createdAt,
   });
