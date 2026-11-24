@@ -1,0 +1,30 @@
+name: entre_nos
+description: "ENTRE NOS - Red social privada para amigos. Lo que pasa entre nosotros."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.1
+  supabase_flutter: ^2.8.4
+  intl: ^0.20.2
+  image_picker: ^1.2.4
+  flutter_image_compress: ^2.5.1
+  video_player: ^2.14.1
+  path_provider: ^2.1.6
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
